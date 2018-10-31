@@ -19,9 +19,8 @@ function generateFibonacci(start = 1, end = 100) {
 
     } else  {
 
-        evalIdx1 = stack[stack.length -2];
-        evalIdx2 = stack[stack.length -1];
-        stack.push(evalIdx1 + evalIdx2);
+        stack.push(stack[stack.length - 2] + stack[stack.length - 1]);
+
     }
 
     console.log(stack[i])

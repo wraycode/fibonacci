@@ -20,9 +20,7 @@ function generateFibonacci($start = 1, $end = 100) {
 
         } else  {
 
-            $evalIdx1 = $stack[count($stack) -2];
-            $evalIdx2 = $stack[count($stack) -1];
-            array_push($stack,$evalIdx1 + $evalIdx2);
+            array_push($stack,$stack[count($stack) - 2] + $stack[count($stack) - 1]);
         }
 
       print "\n$stack[$i]";
