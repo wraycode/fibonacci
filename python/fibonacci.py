@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #
 #  Counts the fibonacci sequence
-#  ruby fibonacci.rb
+#  ./fibonacci.py
 #
 
 def generateFibonacci(sPos = 1, ePos = 100):
