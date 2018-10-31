@@ -4,7 +4,6 @@
 #  ruby fibonacci.rb
 #
 
-
 def generateFibonacci(sPos =1, ePos =100)
 
   stack = [sPos];
@@ -15,13 +14,9 @@ def generateFibonacci(sPos =1, ePos =100)
     else
       stack.push(stack[stack.length - 1] + stack[stack.length - 2])
     end
-    print "\n #{stack[i]}"
-
+    print "#{stack[i]} \n"
   end # end for loop
-
     return stack
-
 end
-
 
 generateFibonacci()
